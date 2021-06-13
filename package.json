@@ -1,0 +1,22 @@
+{
+  "name": "symbolcheckservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.0.2",
+    "jwk-to-pem": "^2.0.5",
+    "jwt-decode": "^3.1.2",
+    "node-uuid": "^1.4.8",
+    "serverless-dynamodb-local": "^0.2.39"
+  },
+  "devDependencies": {
+    "serverless-offline": "^7.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
